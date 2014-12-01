@@ -15,6 +15,7 @@
 		559371D31A0C1F30003105D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559371D21A0C1F30003105D1 /* Images.xcassets */; };
 		559371D61A0C1F30003105D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559371D41A0C1F30003105D1 /* LaunchScreen.xib */; };
 		559371E21A0C1F31003105D1 /* CoreDataPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559371E11A0C1F31003105D1 /* CoreDataPlaygroundTests.m */; };
+		55C82E401A293D7300EB1E33 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C82E3F1A293D7300EB1E33 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		559371DB1A0C1F31003105D1 /* CoreDataPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		559371E01A0C1F31003105D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		559371E11A0C1F31003105D1 /* CoreDataPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataPlaygroundTests.m; sourceTree = "<group>"; };
+		55C82E3E1A293D7300EB1E33 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		55C82E3F1A293D7300EB1E33 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				559371D21A0C1F30003105D1 /* Images.xcassets */,
 				559371D41A0C1F30003105D1 /* LaunchScreen.xib */,
 				559371C91A0C1F30003105D1 /* CoreDataPlayground.xcdatamodeld */,
+				55C82E3E1A293D7300EB1E33 /* Item.h */,
+				55C82E3F1A293D7300EB1E33 /* Item.m */,
 				559371C21A0C1F30003105D1 /* Supporting Files */,
 			);
 			path = CoreDataPlayground;
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C82E401A293D7300EB1E33 /* Item.m in Sources */,
 				559371CB1A0C1F30003105D1 /* CoreDataPlayground.xcdatamodeld in Sources */,
 				559371C81A0C1F30003105D1 /* AppDelegate.m in Sources */,
 				559371CE1A0C1F30003105D1 /* ViewController.m in Sources */,
@@ -418,6 +424,7 @@
 				559371E71A0C1F31003105D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		559371E81A0C1F31003105D1 /* Build configuration list for PBXNativeTarget "CoreDataPlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				559371EA1A0C1F31003105D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
