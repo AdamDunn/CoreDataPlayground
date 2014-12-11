@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
+- (IBAction)buttonClicked:(UIButton *)sender;
 
 @end
 
